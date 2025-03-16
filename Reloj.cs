@@ -18,7 +18,7 @@ namespace Ging1991.Tiempos {
 		private readonly float intervaloMinutos = 30f;
 				
 		public static string NOMBRE_RELOJ = "RelojGlobal";
-
+// test
 		void Start() {
 			Reiniciar();
 		}
