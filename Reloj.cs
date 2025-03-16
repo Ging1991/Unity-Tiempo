@@ -16,12 +16,15 @@ namespace Ging1991.Tiempos {
 		private readonly float intervaloDecimas = 0.1f;
 		private readonly float intervaloSegundos = 1f;
 		private readonly float intervaloMinutos = 30f;
-		
-		// test
+				
 		public static string NOMBRE_RELOJ = "RelojGlobal";
 
-
 		void Start() {
+			Reiniciar();
+		}
+
+
+		public void Reiniciar() {
 			marcaMinutos = Time.time;
 			marcaSegundos = Time.time;
 			marcaDecimas = Time.time;
