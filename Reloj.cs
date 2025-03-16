@@ -17,6 +17,7 @@ namespace Ging1991.Tiempos {
 		private readonly float intervaloSegundos = 1f;
 		private readonly float intervaloMinutos = 30f;
 		
+		// test
 		public static string NOMBRE_RELOJ = "RelojGlobal";
 
 
